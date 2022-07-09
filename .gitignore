@@ -10,6 +10,9 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# Idea files
+/BMI_Calculator/.idea/
+
 # Package Files #
 *.jar
 *.war
