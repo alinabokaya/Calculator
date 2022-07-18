@@ -10,7 +10,7 @@ public class HtmlPageTests {
 
 
     @Test
-    public void WelcomingTest() {
+    public void welcomingTest() {
 
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
@@ -28,7 +28,7 @@ public class HtmlPageTests {
     }
 
     @Test
-    public void BandsListTest() {
+    public void bandsListTest() {
 
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
@@ -46,7 +46,7 @@ public class HtmlPageTests {
     }
 
     @Test
-    public void ButtonTest() {
+    public void buttonTest() {
 
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
@@ -64,7 +64,7 @@ public class HtmlPageTests {
     }
 
     @Test
-    public void GreetingBlockTest() {
+    public void greetingBlockTest() {
 
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
@@ -83,7 +83,7 @@ public class HtmlPageTests {
 
 
     @Test
-    public void UrlTest() {
+    public void urlTest() {
 
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
@@ -104,7 +104,7 @@ public class HtmlPageTests {
     }
 
     @Test
-    public void ImageAltTextTest() {
+    public void imageAltTextTest() {
 
         //Open Chrome browser
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
