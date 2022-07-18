@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cool Page</title>
+    <style>
+        p {
+            color: #2BA979;
+            font-size: 32px;
+            font-family: Geneva;
+            text-align: center;
+        }
+
+        .invitation {
+            color: #2C3B35;
+            font-size: 24px;
+            font-family: Geneva;
+            text-align: center;
+        }
+
+        table {
+            margin: 0 auto; /*Выравнивание таблицы по центру*/
+            width: 20%; /* Ширина таблицы */
+            background: black; /* Цвет фона таблицы */
+            color: black; /* Цвет текста */
+            border-spacing: 1px; /* Расстояние между ячейками */
+
+        }
+
+        td, th {
+            background: #79AF9B; /* Цвет фона ячеек */
+            padding: 10px; /* Поля вокруг текста */
+        }
+
+        .bands {
+            color: #2C3B35;
+            font-size: 18px;
+            font-family: Geneva;
+            text-align: center;
+        }
+
+        .hands {
+            color: #2C3B35;
+            font-family: Geneva;
+            font-size: 18px;
+            text-align: center
+        }
+
+        .checkboxes {
+            color: #2C3B35;
+            font-family: Geneva;
+            font-size: 16px;
+            text-align: center;
+            align-items: center;
+        }
+    </style>
+    <script type="text/javascript" src="myscript.js"></script>
+</head>
+<body>
+
+<h1 id="h_1" name="header" style="color: #F0501D; font-family: Andale Mono; font-size: 42px; text-align: center">
+    Welcome
+    to my Cool Page!</h1>
+
+<p id="p_1" name="greeting">My name is Alina :)</p>
+
+<div id="div_1" name="invite" class="invitation">Please see table with my Travel Plans:</div>
+<br>
+
+<table id="table_1" name="cities">
+    <tr>
+        <th>City</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Kitchen</td>
+        <td>Poland</td>
+    </tr>
+    <tr>
+        <td>Bedroom</td>
+        <td>Poland</td>
+    </tr>
+    <tr>
+        <td>Bathroom</td>
+        <td>Poland</td>
+    </tr>
+</table>
+<br>
+<br>
+<br>
+<div id="div_2" name="bands list" class="bands">
+    <span id="span_1" name="just text">I like these bands:</span>
+    <select id="dropdown_1" name="my bands"
+            style="color: #F0501D; font-family: Geneva; font-size: 16px; text-align: center">
+        <option>Moby</option>
+        <option>Tame Impala</option>
+        <option>Batu Akdeniz</option>
+        <option>Adamlar</option>
+    </select>
+</div>
+<br>
+<br>
+<p id="p2" name="hands" class="hands">What hand do you use for writing?</p>
+<form id="form_1" name="checkboxes" class="checkboxes">
+    <input type="checkbox" id="checkbox_1" name="left" value="Left">
+    <label for="checkbox_1"> I use left hand</label><br>
+    <input type="checkbox" id="checkbox_2" name="right" value="Right">
+    <label for="checkbox_2"> I use right hand</label><br>
+</form>
+<br>
+<div align="center">
+    <a id="a_1" href="https://www.w3schools.com/html/default.asp">Click here to learn HTML!</a>
+</div>
+<br>
+<br>
+<div align="center">
+    <input id="elem" type="button" value="Click Me!" class="button" onclick="showMessage()">
+    <br>
+    <br>
+    <br>
+    <img id="image_1" class="images" src="img.jpeg" width="400" height="400" alt="oops, you found it" >
+</div>
+</body>
+</html>
